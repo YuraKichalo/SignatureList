@@ -1,0 +1,26 @@
+.header {
+    padding: 20px 0;
+}
+
+.header > .unSelected {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header > .selected {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header > .selected p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.header-title {
+    margin: 0;
+}

@@ -1,0 +1,72 @@
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: rgb(65, 0, 253);
+    position: relative;
+}
+
+.card img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.card .hoveredContent {
+    position: absolute;
+    top: 55px;
+    left: 40px;
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card .hoveredFooter {
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .icons {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons .icon {
+    cursor: pointer;
+}
+
+.card p {
+    color: white;
+    margin: 0;
+}
+
+.card .checkbox {
+    display: none;
+}
+
+.checkboxWrapper {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+
+.card .fake {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+}
